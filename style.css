@@ -1,20 +1,30 @@
 .panel{
-    min-height: 100%;
-    width: 200px;
+    /* display: flex; */
+    /* min-height: 100%; */
+     width: 200px;
+    /* margin-bottom: 100%; */
     margin-left: -150px;
     background-color: rgba(52, 120, 197, 0.13);
+    line-height: 27px;
+    /* height: 100%; */
+    /* flex-direction: column; */
 }
 
 .panel:hover{
     margin-left: 0px;
     transition : 1s;
     background-color: rgba(52, 120, 197, 0.616);
+
 }
 
 body{
+    background: url(https://temarkauthor.files.wordpress.com/2017/01/01-time-travel-machine3.png?w=1478);
     margin: 0;
+    /* max-height: 100%; */
     height: 100%;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 ul{
